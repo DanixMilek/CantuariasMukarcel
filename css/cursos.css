@@ -1,0 +1,83 @@
+@font-face {
+    font-family: Darleston;
+    src: url("/fonts/Darleston.otf");
+}
+
+@font-face {
+    font-family: BackToBlack;
+    src: url("/fonts/Back\ to\ Black\ Demo.ttf");
+}
+
+@font-face {
+    font-family: Odstemplik;
+    src: url("/fonts/odstemplik.otf");
+}
+.menu{
+    background: rgb(217,215,255);
+    background: linear-gradient(90deg, rgba(217,215,255,1) 0%, rgba(158,193,255,1) 35%, rgba(100,141,227,1) 100%);
+}
+
+.col{
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width : 80% !important;
+    height: 350px !important;
+    border: 18px ridge #d3bd4d;
+    border-radius: 10px;  
+    margin: 6% 0% 0% 8%;  
+}
+
+.descripcion-curso{
+    font-family: Odstemplik;
+    font-size: 20px;
+    margin: 0% 20% 0% 0%;
+}
+
+h3{
+    font-family: Darleston;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+h5{
+    font-family: BackToBlack;
+    font-size: 30px;
+}
+
+.btn{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    margin: 5% 0% 0% 0%;
+    width: 300px;
+    background: url("/img/backgroundBtn.png") #f6f6f6 no-repeat left top;
+    background-size: 300px 100px;
+    background-blend-mode: hard-light;
+    border-radius: 10px;
+    border: 5px ridge #d3bd4d;
+}
+
+.btn:hover{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    margin: 5% 0% 0% 0%;
+    width: 300px;
+    background: url("/img/backgroundBtn.png") #f6f6f6 no-repeat left top;
+    background-size: 300px 100px;
+    background-blend-mode: color-burn;
+    border-radius: 10px;
+    border: 5px ridge #000000;
+}
+
+
+
+.footer{
+    background-color: black;
+    background-image: none;
+    margin: 8% 0% 0% 0%;
+    padding: 2% 0% 0% 0%;
+}   

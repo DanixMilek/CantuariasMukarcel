@@ -1,0 +1,15 @@
+.menu{
+    background: rgb(217,215,255);
+    background: linear-gradient(90deg, rgba(217,215,255,1) 0%, rgba(158,193,255,1) 35%, rgba(100,141,227,1) 100%);
+}
+
+h1{
+    margin: 8% 0% 0% 6%;
+}
+
+
+.footer{
+    background-color: black;
+    margin: 8% 0% 0% 0%;
+    padding: 2% 0% 0% 0%;
+}    

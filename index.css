@@ -3,9 +3,6 @@
     background: linear-gradient(90deg, rgba(217,215,255,1) 0%, rgba(158,193,255,1) 35%, rgba(100,141,227,1) 100%);
 }
 
-.body{
-}
-
 h1{
     margin: 8% 0% 0% 6%;
 }
@@ -29,7 +26,6 @@ h1{
 
 .carousel-indicators{
     background-color: rgb(0, 0, 0);
-    border-radius: 30px;
     margin: 1% 30%;
     padding: 1% 0%;
     border: 10px ridge #d3bd4d;
@@ -39,7 +35,6 @@ h1{
 .carousel-item img{
     width : 100% !important;
     height: 350px !important;
-    border-radius: 30px !important;
     border: 18px ridge #d3bd4d;
     border-radius: 10px;    
 }
