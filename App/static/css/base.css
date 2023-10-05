@@ -1,0 +1,75 @@
+.menu{
+    background: rgb(217,215,255);
+    background: linear-gradient(45deg, #fbfbf4, #c5b4ab, #907168, #5b342c);
+
+    border-bottom: 2px solid #5B342C;
+    border-top: 2px solid #5B342C;
+}
+
+.navbar{
+    padding: 0 !important;
+}
+
+.navbar-brand{
+    font-family: AlexBrush;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0% 2.5% 0% 0%;
+}
+
+.navmenu{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0% 1%;
+    transform: scaleY(1) scaleX(0.9);
+}
+
+.navmenu:hover{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: bold;
+    margin: -1.5% -0.4% -2% 0%;
+    transform: scaleY(1) scaleX(0.9);
+    background-color: rgba(0, 0, 0, 0.068);
+    border: 4px solid #0000002f;
+    border-radius: 5px;
+}
+
+body{
+    background-color: #f4fafbc4;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+}
+
+.navFooter{
+    justify-content: left !important;
+}
+
+.navbarFooter{
+    margin: 0% 0% 0% 1% !important;
+}
+
+.titleFooter{
+    color: aliceblue; 
+    margin: -4% 0% 0% 0%;
+    font-family: AlexBrush;
+}
+
+.fonoFooter{
+    font-family: BackToBlack;
+    font-size: 20px;
+    padding: 0%;
+}
+
+.footer{
+    background-color: black;
+    margin: 0;
+    padding: 2% 0% 0% 3%;
+}
+
+.titleFooter,.fonoFooter,.footer{
+    color: aliceblue;
+}

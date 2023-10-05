@@ -17,53 +17,6 @@
     src: url("/fonts/AlexBrush-Regular.ttf");
 }
 
-.menu{
-    background: rgb(217,215,255);
-    background: linear-gradient(45deg, #fbfbf4, #c5b4ab, #907168, #5b342c);
-
-    border-bottom: 2px solid #5B342C;
-    border-top: 2px solid #5B342C;
-}
-
-.navbar{
-    padding: 0 !important;
-}
-
-.navbar-brand{
-    font-family: AlexBrush;
-    font-size: 30px;
-    font-weight: 600;
-    margin: 0% 2.5% 0% 0%;
-}
-
-.navmenu{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 16px;
-    font-weight: bold;
-    margin: 0% 1%;
-    transform: scaleY(1) scaleX(0.9);
-}
-
-.navmenu:hover{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 16px;
-    font-weight: bold;
-    margin: -1.5% -0.4% -2% 0%;
-    transform: scaleY(1) scaleX(0.9);
-    background-color: rgba(0, 0, 0, 0.068);
-    border: 4px solid #0000002f;
-    border-radius: 5px;
-}
-
-body{
-    background-color: #f4fafbc4;
-    background-image: url("/img/backgroundContent.png");
-    background-attachment: fixed;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-blend-mode: lighten;
-}
-
 .col{
     justify-content: center;
     align-items: center;
@@ -72,7 +25,7 @@ body{
 img{
     width : 90% !important;
     height: 450px !important;
-    border: 18px ridge #d3bd4d;
+    border: 18px ridge #B0581A;
     border-radius: 10px;  
     margin: 3%;  
 }
@@ -104,35 +57,18 @@ h5{
     background-size: 300px 100px;
     background-blend-mode: hard-light;
     border-radius: 10px;
-    border: 5px ridge #d3bd4d;
+    border: 5px ridge #B0581A;
 }
 
 .btn:hover{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 900;
-    font-size: 18px;
+    font-size: 18.1px;
     margin: 5% 0% 0% 0%;
-    width: 300px;
+    width: 40%;
     background: url("/img/backgroundBtn.png") #f6f6f6 no-repeat left top;
     background-size: 300px 100px;
     background-blend-mode: color-burn;
     border-radius: 10px;
     border: 5px ridge #000000;
 }
-
-
-.titleFooter{
-    font-family: AlexBrush;
-}
-
-.fonoFooter{
-    font-family: BackToBlack;
-    font-size: 20px;
-    padding: 0%;
-}
-
-.footer{
-    background-color: black;
-    margin: 8% 0% 0% 0%;
-    padding: 2% 0% 0% 3%;
-}  
