@@ -21,7 +21,7 @@
     <div class="container-fluid menu">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand" href="/index.html">Cantuarias Mukarcel</a>
+                <a class="navbar-brand" href="{% url 'home' %}">Cantuarias Mukarcel</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -30,16 +30,16 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item navmenu">
-                            <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+                            <a class="nav-link active" aria-current="page" href="{% url 'home' %}">Inicio</a>
                         </li>
                         <li class="nav-item navmenu">
-                            <a class="nav-link active" aria-current="page" href="/html/pinturas.html">Pinturas</a>
+                            <a class="nav-link active" aria-current="page" href="{% url 'pinturas' %}">Pinturas</a>
                         </li>
                         <li class="nav-item navmenu">
-                            <a class="nav-link active" aria-current="page" href="/html/cursos.html">Cursos</a>
+                            <a class="nav-link active" aria-current="page" href="{% url 'cursos' %}">Cursos</a>
                         </li>
                         <li class="nav-item navmenu">
-                            <a class="nav-link active" aria-current="page" href="/html/contacto.html">Contacto</a>
+                            <a class="nav-link active" aria-current="page" href="{% url 'contacto' %}">Contacto</a>
                         </li>
                     </ul>
                 </div>
