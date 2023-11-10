@@ -113,3 +113,15 @@ h5{
     border-radius: 10px;
     border: 5px ridge #000000;
 }
+
+.popover {
+    font-family: Darleston;
+    font-weight: 600;
+    font-size: 125%;
+    max-width: 300px; /* Ajusta el ancho máximo del popover */
+    background-image: linear-gradient(25deg, #676d72, #979b9f, #caccce, #ffffff);
+    border: 4px inset #3b3b3b; /* Cambia el color del borde del popover */
+    border-radius: 8px; /* Añade bordes redondeados al popover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Añade una sombra al popover */
+    color: #333; /* Cambia el color del texto dentro del popover */
+}

@@ -35,12 +35,12 @@
                         <li class="nav-item navmenu">
                             <a class="nav-link active" aria-current="page" href="{% url 'pinturas' %}">Pinturas</a>
                         </li>
-                        <li class="nav-item navmenu">
+                        <!-- <li class="nav-item navmenu">
                             <a class="nav-link active" aria-current="page" href="{% url 'cursos' %}">Cursos</a>
                         </li>
                         <li class="nav-item navmenu">
                             <a class="nav-link active" aria-current="page" href="{% url 'contacto' %}">Contacto</a>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
             </div>
@@ -52,15 +52,15 @@
             <div class="container-fluid navFooter">
                     <ul class="navbar-nav mb-2 mb-lg-0 row-cols-6 navbarFooter">
                         <li class="nav-item col-sm-7">
-                            <a class="nav-link titleFooter" aria-current="page"><h2>Cantuarias Mukarcel</h2></a>
+                            <a class="titleFooter" aria-current="page"><h2>Cantuarias Mukarcel</h2></a>
                         </li>
                     </ul>
                     <ul class="navbar-nav py-0 my-0 mb-2 mb-lg-0 row">
                         <li class="nav-item py-0 col-2 col-sm-7">
-                            <a class="nav-link fonoFooter" aria-current="page">Teléfono:</a>
+                            <a class="fonoFooter" aria-current="page">Teléfono:</a>
                         </li>
                         <li>
-                            <a class="nav-link fonoFooter" aria-current="page">+56 xxx xxx xx</a>
+                            <a class="fonoFooter" aria-current="page">+56 xxx xxx xx</a>
                         </li>
                     </ul>
             </div>
@@ -70,9 +70,11 @@
     <!-- SCRIPTS -->
     <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
         integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+    {% block PopoverScript %}{% endblock %}
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
     </script>
+    {% block customScripts %}{% endblock %}
 </body>
 
 </html>
