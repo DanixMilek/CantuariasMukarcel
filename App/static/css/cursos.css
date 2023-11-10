@@ -1,0 +1,109 @@
+@font-face {
+    font-family: Darleston;
+    src: url("/fonts/Darleston.otf");
+}
+
+@font-face {
+    font-family: BackToBlack;
+    src: url("/fonts/Back\ to\ Black\ Demo.ttf");
+}
+
+@font-face {
+    font-family: Odstemplik;
+    src: url("/fonts/odstemplik.otf");
+}
+@font-face {
+    font-family: AlexBrush;
+    src: url("/fonts/AlexBrush-Regular.ttf");
+}
+
+.col{
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card{
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #b3bdcc 100%);
+    border-radius: 15px;
+    box-shadow: inset 11px 11px 16px #747474,
+                inset -11px -11px 16px #ffffff84;
+    width: auto; 
+    margin: 3% 5% 3% 0%;
+}
+
+.card-title, .card-text{
+    padding: 2%;
+    background: rgba(0, 0, 0, 0.218);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.1px);
+    -webkit-backdrop-filter: blur(2.1px);
+    border: 1px solid rgba(0, 0, 0, 1);
+}
+
+img{
+    width : 90% !important;
+    height: 450px !important;
+    border: 18px ridge #000000;
+    border-radius: 7px;
+    box-shadow: inset 12px 12px 24px #626262,
+                inset -12px -12px 24px #ffffff !important;
+    margin: 3%;  
+}
+
+img:hover{
+    width : 90% !important;
+    height: 450px !important;
+    border: 18px ridge #a9a9a9;
+    border-radius: 7px;
+    box-shadow: inset 12px 12px 24px #626262,
+                inset -12px -12px 24px #ffffff !important;
+    margin: 3%;  
+    transform: scale(1.1);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+    cursor: zoom-in;
+}
+
+.descripcion-curso{
+    font-family: Odstemplik;
+    font-size: 20px;
+    margin: 0% 20% 0% 0%;
+}
+
+h3{
+    font-family: Darleston;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+h5{
+    font-family: BackToBlack;
+    font-size: 30px;
+}
+
+.btn{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    margin: 5% 0% 0% 0%;
+    width: 40%;
+    background: url("/img/backgroundBtn.png") #f6f6f6 no-repeat left top;
+    background-size: 300px 100px;
+    background-blend-mode: hard-light;
+    border-radius: 10px;
+    border: 5px ridge #B0581A;
+}
+
+.btn:hover{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    font-size: 18.1px;
+    margin: 5% 0% 0% 0%;
+    width: 40%;
+    background: url("/img/backgroundBtn.png") #f6f6f6 no-repeat left top;
+    background-size: 300px 100px;
+    background-blend-mode: color-burn;
+    border-radius: 10px;
+    border: 5px ridge #000000;
+}
